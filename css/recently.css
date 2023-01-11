@@ -1,0 +1,116 @@
+.recently-content{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+.recently{
+    font-size: 32px;
+    font-family: var(--font-titles);
+    color: var(--section-title-color);
+}
+.recently-leaf1{
+    position: relative;
+    top: 50px;
+    right: 5em;
+}
+.recently-leaf2{
+    position: relative;
+    rotate: 200deg;
+    bottom: 50px;
+    left: 70px;
+}
+.recently-leaf3{
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+
+}
+.recently-img{
+    height: 90%;
+    width: 90%;
+    filter: drop-shadow(5px 5px 5px gray);
+}
+.recently-text button{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: auto;
+    border: none;
+    background-color: var(--button-color);
+    border-radius: 50px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.recently-text button:hover{
+    transition: 0.3s;
+    gap: 15px;
+}
+@media (min-width: 480px){
+    .recently-content{
+        margin-top: 7em;
+    }
+    .recently-img{
+        height: 60%;
+        width: 60%;
+        margin: auto;
+    }
+    .recently-leaf1{
+        left: 2em;
+        top: -9em;
+    }
+    .recently-leaf2{
+        top: 1em;
+        left: -2em;
+    }
+    .recently-leaf3{
+        left: 8em;
+    }
+    .recently{
+        font-size: 35px;
+    }
+
+}
+@media (min-width: 768px){
+    .recently-img{
+        height: 50%;
+        width: 50%;
+    }
+    .recently-p{
+        width: 80%;
+        margin: auto;
+    }
+    .recently-text button{
+        margin-top: 3em;
+        width: 25%;
+    }
+}
+@media (min-width: 1024px){
+    .recently-content{
+        display: flex;
+    }
+    .recently{
+        font-size: 45px;
+    }
+    .recently-img{
+        margin-top: 3em;
+        height: 70%;
+        width: 70%;
+        margin-left: -1em;
+    }
+    .recently-leaf1{
+        top: -13em;
+    }
+    .recently-leaf2{
+        top: -4em;
+        left: 10em;
+    }
+    .recently-p{
+        font-size: 23px;
+    }
+}

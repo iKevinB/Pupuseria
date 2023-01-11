@@ -1,0 +1,139 @@
+.section-subscribe{
+    border-radius: 20px;
+    background-color: rgb(42, 42, 42);
+    width: 90%;
+    margin: auto;
+}
+.subscribe{
+    font-size: 30px;
+    font-family: var(--font-titles);
+    color: var(--section-title-color);
+}
+.section-content{
+    justify-content: center;
+}
+.sub-img{
+    height: 60%;
+    width: 100%;
+
+}
+.sub-info{
+    text-align: center;
+    color: white;
+}
+.input input{
+    width: 90%;
+    border-radius: 40px;
+    height: 30px;
+    margin-bottom: 2em;
+}
+.input button{
+    border-radius: 20px;
+    display: flex;
+    gap: 3px;
+    border: none;
+    background-color: var(--button-color);
+    color: white;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.input button:hover{
+    transition: 0.3s;
+    gap: 10px;
+}
+.input-leaf{
+    rotate: 35deg;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    height: 60px;
+    width: 60px;
+}
+.media-icons svg{
+    cursor: pointer;
+}
+@media (min-width: 480px){
+    .section-subscribe{
+        width: 80%;
+    }
+    .sub-img{
+        height: 60%;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .subscribe{
+        font-size: 35px;
+    }
+    .input input{
+        width: 70%;
+        justify-content: center;
+    }
+    .input-leaf{
+        left: 9em;
+    }
+}
+@media (min-width: 768px){
+    .section-subscribe{
+        width: 70%;
+    }
+    .sub-img{
+        height: 50%;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .subscribe{
+        margin-top: -1em;
+    }
+}
+@media (min-width: 1024px){
+    .section-subscribe{
+        display: flex;
+        width: 90%;
+        gap: 4em;
+        align-items: center;
+    }
+    .sub-img{
+        height: 30%;
+        width: 40%;
+        margin-left: 2em;
+    }
+    .subscribe{
+        margin-top: 0;
+    }
+
+    .input input{
+        width: 25em;
+        height:4em;
+        margin: auto;
+        margin-left: 5em;
+    }
+    .input{
+        display: flex;
+        align-items: center;
+
+    }
+    .input button{
+        position: absolute;
+        right: 8em;
+    }
+    .input-leaf{
+        left: -5em;
+        top: 6.5em;
+    }
+    /* .input button{
+        position: absolute;
+        margin-top: -3.8em;
+        right: 13em;
+    } */
+}
+@media (min-width: 1200px){
+    .section-subscribe{
+        width: 80%;
+    }
+    .input button{
+        right: 15em;
+    }
+}

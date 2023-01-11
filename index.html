@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;300&family=Lobster&family=Poppins:wght@200&family=Roboto+Slab&family=Solway&display=swap" rel="stylesheet">
+
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;300&family=Lobster&family=Poppins:wght@200&family=Roboto+Slab&family=Solway&display=swap');
+        </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;300&family=Lobster&family=Poppins:wght@200&family=Roboto+Slab&family=Solway&display=swap" rel="stylesheet">
+    <style> 
+        @import url('https://fonts.googleapis.com/css2? family=Alexandria:wght@100;300&family=Lobster&   family=Poppins:wght@200&family=Roboto+Slab&    family=Solway&display=swap'); 
+    </style>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/popular.css">
+    <link rel="stylesheet" href="./css/recently.css">
+    <link rel="stylesheet" href="./css/subscribe.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <title>Pupusas</title>
+</head>
+<body>
+    <button onclick="hamburger()" class="hamburger hamburger--spin" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    <header>
+        <nav class="navigation">
+            <a class="logo" href="#pupusas">Pupusas</a>
+            <a class="list-item" href="#recently">Recently</a>
+            <a class="list-item" href="#popular">Popular</a>
+            <a class="list-item" href="#about">About Us</a>
+            <a class="list-item" href="#home">Home</a>
+        </nav>
+        <div id="home" class="header-content">
+            <div data-aos="fade-right" class="header-text">
+                <h1>Enjoy The Delicious Salvadorean Food <span><img class="flag" src="./img/salvadoreanFlag.png" alt=""></span> </h1>
+                <p class="text-btn">Enjoy a good dinner with the best dishes and improve your life</p>
+                <button class="header-btn"><p>Order Now </p><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="rgba(255,255,255,1)"/></svg></span></button>
+            </div>
+            <img data-aos="fade-left" class="header-img" src="./img/pupusa-header.png" alt="">
+        </div>
+        <img class="rama1" src="./img/branch1.png" alt="">
+        <img class="rama2" src="./img/branch2.png" alt="">
+        <button onclick="Top()" class="boton_scroll hidden"><span>🡩</span></button>
+    </header>
+    <main>
+        <section id="about" class="section-about">
+            <article>
+                <h3 class="section">About Us</h3>
+                <div data-aos="fade-up-right" class="about-content">
+                    <img class="leaf2" src="./img/leaf2.png" alt="">
+                    
+                    <img class="about-img" src="./img/food05.png" alt="">
+                    <img class="leaf1" src="./img/leaf1.png" alt="">
+                    <div data-aos="fade-left" class="about-text">
+                        <h2>We Provide Healthy Food</h2>
+                        <p>Food comes to us from our relatives, wheter they have wings or roots. This is how we consider food it also has a culture and it has a history that passes from generation to generation.</p>
+                    </div>
+                    </div>
+            </article>
+        </section>
+        <section class="section-popular">
+            <article id="popular">
+                <div class="popular-content">
+                    <h3 class="popular">The Best Food</h3>
+                    <h2>Popular Dishes</h2>
+                    <div class="popular-food">
+                        <div data-aos="flip-down" class="dish">
+                            <img src="./img/food01.png" alt="">
+                            <div>
+                                <h3>Pan Con pollo</h3>
+                                <h4>Salvadorean Dish</h4>
+                            </div>
+                            <div class="popular-price">
+                                <p>2.99$</p>
+                                <button>
+                                    <p>Order</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="rgba(255,255,255,1)"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div data-aos="flip-down" class="dish">
+                            <img src="./img/food02.png" alt="">
+                            <div>
+                                <h3>Mariscada</h3>
+                                <h4>Salvadorean Dish</h4>
+                            </div>
+                            <div class="popular-price">
+                                <p>2.99$</p>
+                                <button>
+                                    <p>Order</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="rgba(255,255,255,1)"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div data-aos="flip-down" class="dish">
+                            <img src="./img/food03.png" alt="">
+                            <div>
+                                <h3>Flautas</h3>
+                                <h4>Salvadorean Dish</h4>
+                            </div>
+                            <div class="popular-price">
+                                <p>2.99$</p>
+                                <button>
+                                    <p>Order</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="rgba(255,255,255,1)"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article >
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" id="recently" class="recently-content">
+                    <div>
+                        <img class="recently-leaf1" src="./img/leaf1.png" alt="">
+                        <img class="recently-img" src="./img/food06.png" alt="">
+                        <img class="recently-leaf2" src="./img/leaf1.png" alt="">
+                    </div>
+                    <div  class="recently-text" >
+                        <h3 class="recently">Recently Added</h3>
+                        <h2>Desayuno Típico</h2>
+                        <p class="recently-p">Take a look at what's new, and do not deprive yourself of a good meal, enjoy and be happy.</p>
+                        <button>
+                            <p>Order Now</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="rgba(255,255,255,1)"/></svg>
+                        </button>
+                        <img class="recently-leaf3" src="./img/leaf1.png" alt="">
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="section-subscribe" >
+            <img class="sub-img" src="./img/food07.png" alt="">
+            <div class="sub-info">
+                <h3 class="subscribe">Newsletter</h3>
+                <h2>Subscribe For Offer Updates</h2>
+                <div class="input">
+                    <input type="text" placeholder="Subscribe" />
+                    <button>
+                        <p>Subscribe</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="rgba(255,255,255,1)"/></svg>
+                    </button>
+                    <img class="input-leaf" src="./img/leaf2.png" alt="">
+                    <br>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-main" >
+            <h2>Pupusas</h2>
+            <p>Food for the body is not enough. There must be food for the soul</p>
+        </div>
+        <div class="footer-group" >
+            <div class="footer-menu" >
+                <p>Main Menu</p>
+                <li>About</li>
+                <li>Menus</li>
+                <li>Offer</li>
+                <li>Events</li>
+            </div>
+            <div class="footer-info" >
+                <p>Information</p>
+                <li>Contact</li>
+                <li>Order & Returns</li>
+                <li>Videos</li>
+                <li>Reservation</li>
+            </div>
+            <div class="footer-address" >
+                <h3>Address</h3>
+                <p>Av. Hacienda 1234 San Salvador, El Salvador.</p>
+                <p>9AM - 11PM</p>
+            </div>
+            <div class="footer-media" >
+                <h3>Social Media</h3>
+                <div class="media-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" fill="rgba(232,173,66,1)"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" fill="rgba(232,173,66,1)"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z" fill="rgba(232,173,66,1)"/></svg>
+                </div>
+            </div> 
+        </div>
+        <img class="footer-leaf" src="./img/branch2.png" alt="">
+        <p class="copy">Copyright © Pupuseria. All rights reserved</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/scrollTopButton.js" ></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+        
+      </script>
+</body>
+</html>

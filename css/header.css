@@ -1,0 +1,234 @@
+header{
+    overflow-x: hidden;
+}
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+}
+.boton_scroll{
+    color: white;
+    position: fixed;
+    right: 5vh;
+    bottom: 4vh;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--button-color);
+    padding: 15px;
+    cursor: pointer;
+    z-index: 998;
+    transition: all 0.3s ease-out;
+}
+
+.boton_scroll span{
+    font-size: 20px;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 97%;
+    margin: auto;
+    margin-bottom: 5em;
+}
+.header-text{
+    text-align: center;
+
+}
+.text-btn{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+.header-img{
+    height: 70%;
+    width: 100%;
+    filter: drop-shadow(5px 5px 5px gray);
+    rotate: 345deg;
+
+}
+.flag{
+    height: 30px;
+    width: 30px;
+}
+.header-btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: var(--button-color);
+    color: white;
+    transition: 0.3s;   
+}
+.header-btn:hover{
+    transition: 0.3s;
+    gap: 20px;
+   
+}
+.navigation{
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 998;
+    width: 100%;
+    margin: auto;
+    background-color: var(--button-color);
+    transition: transform 0.3s ease;
+    transform: translateY(-20em);
+    position: fixed;
+
+}
+.is-active{
+    transform: translateZ(0em);
+
+}
+.logo{
+    display: none;
+}
+.list-item{
+    display: block;
+    padding: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+   
+    /* float: right;
+    padding: 20px;
+    margin-right: 1em; */
+}
+.hamburger{
+    z-index: 999;
+    position: fixed;
+    top: 30px;
+    right: 15px;
+    background-color: rgb(232, 173, 66, 0.5);
+    border-radius: 20px;
+    padding: 8px;
+}
+.rama1{
+    height: 5em;
+    width: 5em;
+    opacity: 0.5;
+    position: absolute;
+    top: 1em;
+    left: -1em;
+    z-index: -1;
+}
+.rama2{
+    height: 5em;
+    width: 5em;
+    opacity: 0.5;
+    position: absolute;
+    top: 27em;
+    right: -1em;
+    z-index: -1;
+}
+@media (min-width: 480px){
+    .header-img{
+        justify-content: center;
+        height: 80%;
+        width: 80%;
+        margin: auto;
+    }
+    .hamburger{
+        right: 22px;
+    }
+    .rama1{
+        height: 7em;
+        width: 7em;
+    }
+    .rama2{
+        height: 7em;
+        width: 7em;
+    }
+    .header-text{
+        margin-top: -4em;
+    }
+    .hamburger{
+        right: 27px;
+    }
+
+}
+@media (min-width: 768px){
+    .header-img{
+        height: 70%;
+        width: 65%;
+    }
+    .hamburger{
+        right: 40px;
+    }
+    .header-btn{
+        width: 30%;
+        gap: 10px;
+        
+    }
+    .rama1{
+        height: 9em;
+        width: 9em;
+    }
+    .rama2{
+        height: 9em;
+        width: 9em;
+    }
+}
+@media (min-width: 1024px){
+    .navigation{
+        justify-content: center;
+        transform: translateZ(0em);
+        display: flex;
+        flex-direction: row-reverse;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        z-index: 5;
+        border-bottom: 1px solid gray;
+    }
+    /* .logo{
+        position: relative;
+        float: right;
+        visibility: visible;
+    } */
+    .text-btn{
+        font-size: 21px;
+    }
+    .rama1{
+        top: 5em;
+    }
+    .rama2{
+        top: 30em;
+    }
+    .hamburger{
+        display: none;
+    }
+    
+    .header-content{
+        display: flex;
+        flex-direction: row;  
+    }
+    .header-text{
+        margin-top: 15em;
+        width: 100%;
+        margin-left: 1em;
+    }
+    .header-img{
+        height: 60%;
+        width: 55%;
+        margin-top: 10em;
+    }
+    
+    /* nav a{
+        margin-top: 1em;
+        margin-right: 2em;
+    } */
+    nav a:hover{
+        color: var(--button-color);
+    }
+}
