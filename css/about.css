@@ -15,11 +15,13 @@
 }
 .leaf1{
     position: relative;
+    width: 50px;
     left: 100px;
     bottom: 30px;
 }
 .leaf2{
     position: relative;
+    width: 50px;
     rotate: 45deg;
     right: 80px;
     top: 20px;
@@ -103,5 +105,24 @@
     }
     .about-text p{
         font-size: 23px;
+    }
+}
+
+@media (min-width: 1200px){
+    .about-img{
+        margin-top: 4em;
+    }
+    .leaf1{
+
+        top: 18em;
+    }
+    .leaf2{
+
+        top: 4em;
+    }
+}
+@media (min-width: 1440px){
+    .about-img{
+        margin-top: 3em;
     }
 }

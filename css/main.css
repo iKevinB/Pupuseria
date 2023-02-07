@@ -1,11 +1,13 @@
 html{
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body{
     margin: 0;
     overflow-x: hidden;
     font-family: 'Roboto Slab', serif;
+    background-color: #f5ede6;
 }
 :root{
     --font-titles:'Lobster', cursive;

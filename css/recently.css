@@ -10,20 +10,24 @@
     font-family: var(--font-titles);
     color: var(--section-title-color);
 }
+
 .recently-leaf1{
     position: relative;
+    width: 50px;
     top: 50px;
     right: 5em;
 }
 .recently-leaf2{
     position: relative;
+    width: 50px;
     rotate: 200deg;
     bottom: 50px;
-    left: 70px;
+    left: 100px;
 }
 .recently-leaf3{
     position: relative;
-    bottom: 40px;
+    width: 50px;
+    bottom: 50px;
     left: 100px;
 
 }
@@ -108,7 +112,7 @@
     }
     .recently-leaf2{
         top: -4em;
-        left: 10em;
+        left: 4em;
     }
     .recently-p{
         font-size: 23px;
