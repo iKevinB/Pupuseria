@@ -98,10 +98,7 @@ header{
     text-decoration: none;
     color: black;
     text-align: center;
-   
-    /* float: right;
-    padding: 20px;
-    margin-right: 1em; */
+
 }
 .hamburger{
     z-index: 999;

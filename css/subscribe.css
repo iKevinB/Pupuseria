@@ -123,11 +123,7 @@
         left: -5em;
         top: 6.5em;
     }
-    /* .input button{
-        position: absolute;
-        margin-top: -3.8em;
-        right: 13em;
-    } */
+   
 }
 @media (min-width: 1200px){
     .section-subscribe{

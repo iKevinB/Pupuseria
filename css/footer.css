@@ -89,11 +89,9 @@ footer li{
         margin-top: 5em;
     }
 }
-@media (min-width: 1024px){
-    /* .footer-media{
-        margin-bottom: 7em;
-    } */
+@media (min-width: 1024px){   
 
+    
     .footer-group{
         width: 80%;
         margin: auto;
