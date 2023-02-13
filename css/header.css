@@ -18,11 +18,9 @@ header{
     z-index: 998;
     transition: all 0.3s ease-out;
 }
-
 .boton_scroll span{
     font-size: 20px;
 }
-
 .header-content{
     height: 100vh;
     display: flex;
@@ -40,7 +38,6 @@ header{
     margin: auto;
     margin-bottom: 1.5em;
 }
-
 .header-img{
     position: relative;
     top: 1em;
@@ -69,8 +66,7 @@ header{
 }
 .header-btn:hover{
     transition: 0.3s;
-    gap: 20px;
-   
+    gap: 20px;  
 }
 .navigation{
     display: flex;
@@ -82,11 +78,9 @@ header{
     transition: transform 0.3s ease;
     transform: translateY(-20em);
     position: fixed;
-
 }
 .is-active{
     transform: translateZ(0em);
-
 }
 .logo{
     display: none;
@@ -98,7 +92,6 @@ header{
     text-decoration: none;
     color: black;
     text-align: center;
-
 }
 .hamburger{
     z-index: 999;
@@ -130,8 +123,7 @@ header{
 @media (min-width: 425px){
     .header-img{
         width: 75%;
-        margin: auto;
-        
+        margin: auto;    
     }
 }
 @media (min-width: 480px){
@@ -168,8 +160,7 @@ header{
     }
     .header-btn{
         width: 30%;
-        gap: 10px;
-        
+        gap: 10px;   
     }
     .rama1{
         height: 9em;
@@ -232,7 +223,6 @@ header{
     }
     .header-text{
         margin-top: 20em;
-    
     }
     .header-btn{
         width: 10em;

@@ -10,10 +10,8 @@ footer li{
 .footer-main{
     width: 90%;
     margin: auto;
-
 }
 .footer-menu{
-
     width: 80%;
     margin: auto;
     padding-top: 1em;
@@ -90,8 +88,6 @@ footer li{
     }
 }
 @media (min-width: 1024px){   
-
-    
     .footer-group{
         width: 80%;
         margin: auto;

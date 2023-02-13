@@ -15,7 +15,6 @@
 .sub-img{
     height: 60%;
     width: 100%;
-
 }
 .sub-info{
     text-align: center;
@@ -122,8 +121,7 @@
     .input-leaf{
         left: -5em;
         top: 6.5em;
-    }
-   
+    }  
 }
 @media (min-width: 1200px){
     .section-subscribe{

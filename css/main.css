@@ -12,6 +12,5 @@ body{
 :root{
     --font-titles:'Lobster', cursive;
     --section-title-color:rgb(221, 221, 16);
-    --button-color:rgb(232, 173, 66)
-    
+    --button-color:rgb(232, 173, 66)  
 }

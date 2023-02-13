@@ -10,7 +10,6 @@
     font-family: var(--font-titles);
     color: var(--section-title-color);
 }
-
 .recently-leaf1{
     position: relative;
     width: 50px;
@@ -29,7 +28,6 @@
     width: 50px;
     bottom: 50px;
     left: 100px;
-
 }
 .recently-img{
     height: 90%;
@@ -78,7 +76,6 @@
     .recently{
         font-size: 35px;
     }
-
 }
 @media (min-width: 768px){
     .recently-img{

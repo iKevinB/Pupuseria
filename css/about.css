@@ -29,7 +29,6 @@
 .section{
     text-align: center;
 }
-
 .about-content{
     width: 90%;
     margin: auto;
@@ -72,11 +71,9 @@
     .leaf2{
         left: 1em;
         top: -12em;
-    }
-    
+    }  
 }
-@media (min-width: 1024px){
-    
+@media (min-width: 1024px){  
     .section{
         font-size: 45px;
     }
@@ -87,8 +84,7 @@
     .about-img{
         margin-top: 8em;
         height: 40%;
-        width: 40%;
-        
+        width: 40%;  
     }
     .leaf1{
         height: 70px;
