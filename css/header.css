@@ -172,6 +172,17 @@ header{
     }
 }
 @media (min-width: 1024px){
+    /* aqui van los cambios */
+    /*                      
+    
+    
+    
+    
+    
+    
+    
+    
+    */
     .navigation{
         justify-content: center;
         transform: translateZ(0em);
