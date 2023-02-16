@@ -61,6 +61,11 @@ footer li{
     display: flex;
     gap: 2em;
 }
+.media-icons i{
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--button-color);
+}
 .copy{
     width: 90%;
     margin: auto;
@@ -75,9 +80,7 @@ footer li{
         height: 130px;
         width: 150px;
     }
-    .media-icons{
-        gap: 5em;
-    }
+    
     .footer-main{
         width: 80%;
     }
