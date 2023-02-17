@@ -8,6 +8,8 @@
     font-size: 30px;
     font-family: var(--font-titles);
     color: var(--section-title-color);
+
+    /* hacer cambios */
 }
 .section-content{
     justify-content: center;
