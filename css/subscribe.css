@@ -9,7 +9,10 @@
     font-family: var(--font-titles);
     color: var(--section-title-color);
 
-    /* hacer cambios */
+    /* hacer cambios 
+    -cambiar tamaños
+    -cambiar colores     
+    */
 }
 .section-content{
     justify-content: center;
