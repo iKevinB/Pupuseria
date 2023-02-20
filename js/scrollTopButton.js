@@ -8,7 +8,6 @@ document.addEventListener("scroll", e =>{
         boton_scroll.classList.add('hidden');
     }
 })
-
 function Top() {
     window.scrollTo({
         behavior: "smooth",
