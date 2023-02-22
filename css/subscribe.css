@@ -91,15 +91,15 @@
 }
 @media (min-width: 1024px){
     .section-subscribe{
-        display: flex;
+        display: grid;
+        grid-template-columns: 40% 60%;
         width: 90%;
         gap: 4em;
         align-items: center;
     }
     .sub-img{
-        height: 30%;
-        width: 40%;
-        margin-left: 2em;
+        height: 100%;
+        width: 100%;
     }
     .subscribe{
         margin-top: 0;
@@ -114,22 +114,28 @@
     .input{
         display: flex;
         align-items: center;
-
     }
     .input button{
+        border-radius: 50px;
+
+        padding-left: 15px;
+        padding-right: 15px;
         position: absolute;
-        right: 8em;
+        right: 7em;
     }
     .input-leaf{
         left: -5em;
         top: 6.5em;
     }  
 }
-@media (min-width: 1200px){
+@media (min-width: 1440px){
     .section-subscribe{
         width: 80%;
     }
     .input button{
-        right: 15em;
+        right: 20em;
+    }
+    .sub-img{
+        width: 90%;
     }
 }
