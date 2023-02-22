@@ -104,7 +104,6 @@
     .subscribe{
         margin-top: 0;
     }
-
     .input input{
         width: 25em;
         height:4em;
@@ -114,26 +113,31 @@
     .input{
         display: flex;
         align-items: center;
+        width: 90%;
+        margin: auto;
     }
-    .input button{
-        border-radius: 50px;
-
-        padding-left: 15px;
-        padding-right: 15px;
-        position: absolute;
-        right: 7em;
-    }
+    
     .input-leaf{
         left: -5em;
         top: 6.5em;
     }  
 }
+@media (min-width: 1366px){
+    .input{
+        width: 70%;
+        margin: auto;
+    }
+    .input-leaf{
+        top: 10em;
+    } 
+}
 @media (min-width: 1440px){
     .section-subscribe{
         width: 80%;
     }
-    .input button{
-        right: 20em;
+    .input{
+        width: 80%;
+        margin: auto;
     }
     .sub-img{
         width: 90%;
