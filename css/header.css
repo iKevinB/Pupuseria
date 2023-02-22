@@ -1,10 +1,6 @@
 header{
     overflow-x: hidden;
 }
-/*
-Prueba github 
-
-*/
 .hidden{
     visibility: hidden;
     opacity: 0;
@@ -70,11 +66,14 @@ Prueba github
     border: none;
     background-color: var(--button-color);
     color: white;
-    transition: 0.3s;   
+    transition: 0.3s;  
+    filter: drop-shadow(2px 2px 3px gray); 
 }
 .header-btn:hover{
     transition: 0.3s;
     gap: 20px;  
+    color: black;
+    
 }
 .navigation{
     display: flex;
@@ -203,7 +202,7 @@ Prueba github
         background-color: rgb(232, 173, 66)    ;
         width: 100%;
         z-index: 5;
-        
+        box-shadow: 0px 15px 10px -15px gray;
     }
     .logo{
         text-decoration: none;
@@ -234,7 +233,7 @@ Prueba github
     .header-content{
         width: 90%;
         margin: auto;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 60% 50%;
         grid-template-rows: 1fr;
     }
     .header-text{
@@ -247,6 +246,8 @@ Prueba github
     .header-img{
         width: 100%;
         rotate: 350deg;
+        margin-top: 5em;
+        margin-left: -4em;
     }
     nav a:hover{
         color: black;
@@ -254,7 +255,11 @@ Prueba github
 }
 @media (min-width: 1440px){
 
+    .header-img{
+        margin-top: 0;
+    }
     .header-content{
+        grid-template-columns: 60% 40%;
         margin-top: 2em;
         align-items: center;
     }

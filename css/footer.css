@@ -39,7 +39,6 @@ footer li{
     z-index: -1;
     height: 90px;
     width: 110px;
-    opacity: 0.5;
     float: right;
     margin-right: -20px;
     bottom: 230px;
@@ -62,7 +61,8 @@ footer li{
     gap: 2em;
 }
 .media-icons i{
-    font-size: 25px;
+    font-size: 30px;
+
     cursor: pointer;
     color: var(--button-color);
 }
