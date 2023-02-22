@@ -8,20 +8,15 @@
     font-size: 30px;
     font-family: var(--font-titles);
     color: var(--section-title-color);
-
-    /* hacer cambios 
-    -cambiar tamaños
-    -cambiar colores  
-    -   
-    */
 }
-/* pruebas */
+
 .section-content{
     justify-content: center;
 }
 .sub-img{
-    height: 60%;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    display: block;
 }
 .sub-info{
     text-align: center;
@@ -45,6 +40,8 @@
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+    padding-right:10px;
+    padding-left: 10px;
 }
 .input button:hover{
     transition: 0.3s;
@@ -58,9 +55,7 @@
     height: 60px;
     width: 60px;
 }
-.media-icons svg{
-    cursor: pointer;
-}
+
 @media (min-width: 480px){
     .section-subscribe{
         width: 80%;
